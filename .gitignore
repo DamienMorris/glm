@@ -296,6 +296,8 @@ CMakeFiles
 cmake_install.cmake
 install_manifest.txt
 *.cmake
+!glmConfig.cmake
+!glmConfig-version.cmake
 # ^ May need to add future .cmake files as exceptions
 
 # Test logs
@@ -314,3 +316,4 @@ build*
 /.vscode
 /CMakeSettings.json
 .DS_Store
+*.swp
